@@ -1,18 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Firstsection from './components/Firstsection';
+import Secondsection from "./components/Secondsection";
+import Thirdsection from "./components/Thirdsection";
+import Fourthsection from "./components/Fourthsection";
+import Fifthsection from "./components/Fifthsection";
+import Sixthsection from "./components/Sixthsection";
+import Seventhsection from "./components/Seventhsection";
+import Eightsection from "./components/Eightsection";
+import Footer from "./components/Footer";
+import Menu from "./components/Menu";
 function App() {
   return (
-    <div className="App">
-     <p>This  is the home page</p>
-     <div className='container'>
-       <div className='row'>
-         <div className='col-4'>This is the col 4</div>
-         <div className='col-4'>This is the col 4</div>
-         <div className='col-4'>This is the col 4</div>
-       </div>
-     </div>
-    </div>
+    <>
+      <div className="container-fluid">
+        <Menu/>
+        <Firstsection />
+        <Secondsection />
+        <Thirdsection />
+        <Fourthsection />
+        <Fifthsection />
+        <Sixthsection />
+        <Seventhsection />
+        <Eightsection />
+        <Footer />
+      </div>
+    </>
+
   );
 }
 
