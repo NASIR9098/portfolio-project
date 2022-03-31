@@ -18,9 +18,8 @@
 	-webkit-text-fill-color: transparent;
 }
 .brdr{  
--webkit-border-radius: 50px;
 border:2px solid;
-border: linear-gradient(45deg, #00F0FF, #5773FF,#FF007A) 1;
+border-image:linear-gradient(45deg, #00F0FF, #5773FF,#FF007A) 1;
 }
 .footer{
   background: #110c36;
